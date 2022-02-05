@@ -1,0 +1,4 @@
+/home/asmir/Projekti/Liste/Jednostruko_linkana_lista/build/CMakeFiles/rebuild_cache.dir
+/home/asmir/Projekti/Liste/Jednostruko_linkana_lista/build/CMakeFiles/edit_cache.dir
+/home/asmir/Projekti/Liste/Jednostruko_linkana_lista/build/CMakeFiles/src.dir
+/home/asmir/Projekti/Liste/Jednostruko_linkana_lista/build/CMakeFiles/Jednostruko_linkana_lista.dir

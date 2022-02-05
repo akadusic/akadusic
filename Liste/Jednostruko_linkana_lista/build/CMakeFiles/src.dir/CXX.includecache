@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/asmir/Projekti/Liste/Jednostruko_linkana_lista/includes/jednostruka.hpp
+
+/home/asmir/Projekti/Liste/Jednostruko_linkana_lista/src/jednostruka.cpp
+iostream
+-
+cstdlib
+-
+../includes/jednostruka.hpp
+/home/asmir/Projekti/Liste/Jednostruko_linkana_lista/includes/jednostruka.hpp
+

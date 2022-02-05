@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsrc.a CMakeFiles/src.dir/src/deleteNodes.cpp.o CMakeFiles/src.dir/src/jednostruka.cpp.o
+/usr/bin/ranlib libsrc.a

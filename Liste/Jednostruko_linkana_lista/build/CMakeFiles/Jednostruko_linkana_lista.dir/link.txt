@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/Jednostruko_linkana_lista.dir/main.cpp.o -o Jednostruko_linkana_lista 

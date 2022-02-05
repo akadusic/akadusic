@@ -1,0 +1,2 @@
+/home/asmir/Projekti/Liste/build/CMakeFiles/rebuild_cache.dir
+/home/asmir/Projekti/Liste/build/CMakeFiles/edit_cache.dir
