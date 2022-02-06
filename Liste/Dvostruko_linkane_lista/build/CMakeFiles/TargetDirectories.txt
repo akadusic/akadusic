@@ -1,0 +1,5 @@
+/home/asmir/Projekti/Liste/Dvostruko_linkane_lista/build/CMakeFiles/edit_cache.dir
+/home/asmir/Projekti/Liste/Dvostruko_linkane_lista/build/CMakeFiles/mejn.dir
+/home/asmir/Projekti/Liste/Dvostruko_linkane_lista/build/CMakeFiles/rebuild_cache.dir
+/home/asmir/Projekti/Liste/Dvostruko_linkane_lista/build/CMakeFiles/insertF.dir
+/home/asmir/Projekti/Liste/Dvostruko_linkane_lista/build/CMakeFiles/print.dir

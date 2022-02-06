@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/asmir/Projekti/Liste/Dvostruko_linkane_lista/include/nodesForDoubleList.hpp
+cstdlib
+-
+
+/home/asmir/Projekti/Liste/Dvostruko_linkane_lista/src/printList.cpp
+../include/nodesForDoubleList.hpp
+/home/asmir/Projekti/Liste/Dvostruko_linkane_lista/include/nodesForDoubleList.hpp
+iostream
+-
+
