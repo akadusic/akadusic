@@ -1,2 +1,0 @@
-/usr/bin/ar qc libinsertF.a CMakeFiles/insertF.dir/src/insertInFront.cpp.o
-/usr/bin/ranlib libinsertF.a

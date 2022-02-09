@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfajlovi.a CMakeFiles/fajlovi.dir/src/printList.cpp.o CMakeFiles/fajlovi.dir/src/insertInFront.cpp.o
+/usr/bin/ranlib libfajlovi.a

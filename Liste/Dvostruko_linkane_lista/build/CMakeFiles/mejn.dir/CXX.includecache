@@ -6,7 +6,13 @@
 
 #IncludeRegexTransform: 
 
+/home/asmir/Projekti/Liste/Dvostruko_linkane_lista/fajlovi/include/nodesForDoubleList.hpp
+cstdlib
+-
+
 /home/asmir/Projekti/Liste/Dvostruko_linkane_lista/main.cpp
 iostream
 -
+fajlovi/include/nodesForDoubleList.hpp
+/home/asmir/Projekti/Liste/Dvostruko_linkane_lista/fajlovi/include/nodesForDoubleList.hpp
 

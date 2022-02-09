@@ -98,8 +98,6 @@ mejn_EXTERNAL_OBJECTS =
 
 mejn: CMakeFiles/mejn.dir/main.cpp.o
 mejn: CMakeFiles/mejn.dir/build.make
-mejn: libinsertF.a
-mejn: libprint.a
 mejn: CMakeFiles/mejn.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/asmir/Projekti/Liste/Dvostruko_linkane_lista/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable mejn"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mejn.dir/link.txt --verbose=$(VERBOSE)

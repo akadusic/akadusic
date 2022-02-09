@@ -99,14 +99,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/asmir/Projekti/Liste/Dvostruko_linkane_lista/build/CMakeFiles /home/asmir/Projekti/Liste/Dvostruko_linkane_lista/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd /home/asmir/Projekti/Liste/Dvostruko_linkane_lista/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/asmir/Projekti/Liste/Dvostruko_linkane_lista/build/CMakeFiles /home/asmir/Projekti/Liste/Dvostruko_linkane_lista/build/fajlovi//CMakeFiles/progress.marks
+	cd /home/asmir/Projekti/Liste/Dvostruko_linkane_lista/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fajlovi/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/asmir/Projekti/Liste/Dvostruko_linkane_lista/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /home/asmir/Projekti/Liste/Dvostruko_linkane_lista/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fajlovi/clean
 .PHONY : clean
 
 # The main clean target
@@ -116,71 +116,87 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/asmir/Projekti/Liste/Dvostruko_linkane_lista/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fajlovi/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/asmir/Projekti/Liste/Dvostruko_linkane_lista/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fajlovi/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/asmir/Projekti/Liste/Dvostruko_linkane_lista/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named mejn
+# Convenience name for target.
+fajlovi/CMakeFiles/fajlovi.dir/rule:
+	cd /home/asmir/Projekti/Liste/Dvostruko_linkane_lista/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fajlovi/CMakeFiles/fajlovi.dir/rule
+.PHONY : fajlovi/CMakeFiles/fajlovi.dir/rule
 
-# Build rule for target.
-mejn: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mejn
-.PHONY : mejn
+# Convenience name for target.
+fajlovi: fajlovi/CMakeFiles/fajlovi.dir/rule
 
-# fast build rule for target.
-mejn/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mejn.dir/build.make CMakeFiles/mejn.dir/build
-.PHONY : mejn/fast
-
-#=============================================================================
-# Target rules for targets named fajlovi
-
-# Build rule for target.
-fajlovi: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fajlovi
 .PHONY : fajlovi
 
 # fast build rule for target.
 fajlovi/fast:
-	$(MAKE) $(MAKESILENT) -f fajlovi/CMakeFiles/fajlovi.dir/build.make fajlovi/CMakeFiles/fajlovi.dir/build
+	cd /home/asmir/Projekti/Liste/Dvostruko_linkane_lista/build && $(MAKE) $(MAKESILENT) -f fajlovi/CMakeFiles/fajlovi.dir/build.make fajlovi/CMakeFiles/fajlovi.dir/build
 .PHONY : fajlovi/fast
 
-main.o: main.cpp.o
+src/insertInFront.o: src/insertInFront.cpp.o
 
-.PHONY : main.o
+.PHONY : src/insertInFront.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mejn.dir/build.make CMakeFiles/mejn.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/insertInFront.cpp.o:
+	cd /home/asmir/Projekti/Liste/Dvostruko_linkane_lista/build && $(MAKE) $(MAKESILENT) -f fajlovi/CMakeFiles/fajlovi.dir/build.make fajlovi/CMakeFiles/fajlovi.dir/src/insertInFront.cpp.o
+.PHONY : src/insertInFront.cpp.o
 
-main.i: main.cpp.i
+src/insertInFront.i: src/insertInFront.cpp.i
 
-.PHONY : main.i
+.PHONY : src/insertInFront.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mejn.dir/build.make CMakeFiles/mejn.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/insertInFront.cpp.i:
+	cd /home/asmir/Projekti/Liste/Dvostruko_linkane_lista/build && $(MAKE) $(MAKESILENT) -f fajlovi/CMakeFiles/fajlovi.dir/build.make fajlovi/CMakeFiles/fajlovi.dir/src/insertInFront.cpp.i
+.PHONY : src/insertInFront.cpp.i
 
-main.s: main.cpp.s
+src/insertInFront.s: src/insertInFront.cpp.s
 
-.PHONY : main.s
+.PHONY : src/insertInFront.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mejn.dir/build.make CMakeFiles/mejn.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/insertInFront.cpp.s:
+	cd /home/asmir/Projekti/Liste/Dvostruko_linkane_lista/build && $(MAKE) $(MAKESILENT) -f fajlovi/CMakeFiles/fajlovi.dir/build.make fajlovi/CMakeFiles/fajlovi.dir/src/insertInFront.cpp.s
+.PHONY : src/insertInFront.cpp.s
+
+src/printList.o: src/printList.cpp.o
+
+.PHONY : src/printList.o
+
+# target to build an object file
+src/printList.cpp.o:
+	cd /home/asmir/Projekti/Liste/Dvostruko_linkane_lista/build && $(MAKE) $(MAKESILENT) -f fajlovi/CMakeFiles/fajlovi.dir/build.make fajlovi/CMakeFiles/fajlovi.dir/src/printList.cpp.o
+.PHONY : src/printList.cpp.o
+
+src/printList.i: src/printList.cpp.i
+
+.PHONY : src/printList.i
+
+# target to preprocess a source file
+src/printList.cpp.i:
+	cd /home/asmir/Projekti/Liste/Dvostruko_linkane_lista/build && $(MAKE) $(MAKESILENT) -f fajlovi/CMakeFiles/fajlovi.dir/build.make fajlovi/CMakeFiles/fajlovi.dir/src/printList.cpp.i
+.PHONY : src/printList.cpp.i
+
+src/printList.s: src/printList.cpp.s
+
+.PHONY : src/printList.s
+
+# target to generate assembly for a file
+src/printList.cpp.s:
+	cd /home/asmir/Projekti/Liste/Dvostruko_linkane_lista/build && $(MAKE) $(MAKESILENT) -f fajlovi/CMakeFiles/fajlovi.dir/build.make fajlovi/CMakeFiles/fajlovi.dir/src/printList.cpp.s
+.PHONY : src/printList.cpp.s
 
 # Help Target
 help:
@@ -191,10 +207,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... fajlovi"
-	@echo "... mejn"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/insertInFront.o"
+	@echo "... src/insertInFront.i"
+	@echo "... src/insertInFront.s"
+	@echo "... src/printList.o"
+	@echo "... src/printList.i"
+	@echo "... src/printList.s"
 .PHONY : help
 
 
@@ -206,6 +224,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/asmir/Projekti/Liste/Dvostruko_linkane_lista/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

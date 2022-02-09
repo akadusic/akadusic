@@ -1,2 +1,0 @@
-/usr/bin/ar qc libinsert.a CMakeFiles/insert.dir/insertInFront.cpp.o
-/usr/bin/ranlib libinsert.a
