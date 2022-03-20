@@ -81,4 +81,5 @@ int main(){
 	dva.next = head2;
 	Node* head3 = jedan + dva;
 	printList(head3);
+	cout << "Ovdje je nesto dodano budalica jedna" << endl;
 }
